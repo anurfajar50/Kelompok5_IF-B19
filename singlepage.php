@@ -87,7 +87,7 @@
     </style>
   </head>
   <body data-spy="scroll" data-target="#navbar">
-        <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -99,13 +99,19 @@
                 <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#shop">Shop</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+            <li class="nav-item mr-auto">
+                <a class="nav-link" href="#home">SIGN IN</a>
             </li>
         </div>
         </nav>
@@ -114,13 +120,10 @@
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img src="img/03.png" class="d-block w-100" alt="...">
+                    <img src="img/banner-1.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                    <img src="  img/02.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                    <img src="img/01.png" class="d-block w-100" alt="...">
+                    <img src="  img/banner-2-1.png" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -134,17 +137,16 @@
             </div>
         </section>
 
-        <section id="about" class="bg-secondary parallax">
+        <section id="shop" class="bg-secondary parallax">
         <div class="container">
-            <div class="row">
-                <div class="col-md-8 mx-auto text-center">
-                <h1>This is About Page</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consectetur labore incidunt, dignissimos illum temporibus placeat ratione nam odio ad molestias dolorem atque impedit maiores suscipit praesentium officiis itaque adipisci.</p>
-                
-                <br><br>
-                <button type="button" class="btn btn-primary btn-primary-custom btn-lg">This is Button</button>
-                </div>
+          <div class="row">
+            <div class="col">
+              <img src="" alt="">
             </div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+          </div>
         </div>
         </section>
 
@@ -157,6 +159,20 @@
                 
                 <br><br>
                 <button type="button" class="btn btn-primary btn-lg">This is Button</button>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section id="about" class="bg-secondary parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto text-center">
+                <h1>This is About Page</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consectetur labore incidunt, dignissimos illum temporibus placeat ratione nam odio ad molestias dolorem atque impedit maiores suscipit praesentium officiis itaque adipisci.</p>
+                
+                <br><br>
+                <button type="button" class="btn btn-primary btn-primary-custom btn-lg">This is Button</button>
                 </div>
             </div>
         </div>
