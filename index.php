@@ -7,119 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>FOTOGRAPHIE</title>
 
-    <style>
-        /* Navbar */
-        .navbar-nav {
-            padding-right: 20px;
-        }
-        .nav-item {
-            padding-right: 25px;
-        }
-        .bg-light {
-            background-color: rgba(0,0,0,0) !important;
-        }
-        .bg-nontrans {
-            background-color: rgba(255,255,255,1) !important;
-        }
-
-        @media screen and (max-width: 575px){
-            .bg-light {
-                background-color: rgba(255,255,255,1) !important;
-            }
-            #home {
-                margin-top: 55px;
-            }
-        }
-        /* CAROUSEL */
-        #myCarousel {
-            height: 100vh;
-        }
-        .carousel-item img {
-            height: 100vh;
-        }
-        /* section */
-        section {
-            padding-top : 50px;
-            padding-bottom : 50px;
-        }
-
-        #home {
-            padding-top : 0px;
-            padding-bottom : 0px;
-        }
-        #about, #gallery, #contact {
-            height: 700px;
-        }
-        /* Scroll effect */
-        html {
-            scroll-behavior: smooth;
-        }
-
-        /* .buttom */
-        .btn-primary-custom{
-            background-color: red;
-        }
-        /* CAROUSEL */
-        #myCarousel {
-        height: 100vh;
-        }
-        .carousel-item img {
-            height: 100vh;
-        }
-        /* section */
-        section {
-            padding-top : 50px;
-            padding-bottom : 50px;
-        }
-
-        #home {
-            padding-top : 0px;
-            padding-bottom : 0px;
-        }
-        #news, #galeri, #about, #contact {
-            height: 700px;
-        }
-        /* Scroll effect */
-        html {
-            scroll-behavior: smooth;
-        }
-
-        /* .buttom */
-        .btn-primary-custom{
-            background-color: red;
-        }
-        /* PARALLAX */
-        .parallax {
-            background-image: url('img/04.jpg');
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .parallax2 {
-            background-image: url('img/04.jpg');
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .parallax3 {
-            background-image: url('img/04.jpg');
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .parallax4 {
-            background-image: url('img/04.jpg');
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-    </style>
   </head>
   <body data-spy="scroll" data-target="#navbar">
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
@@ -194,25 +84,91 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 mx-auto text-center">
-                <h1>This is news Page</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consectetur labore incidunt, dignissimos illum temporibus placeat ratione nam odio ad molestias dolorem atque impedit maiores suscipit praesentium officiis itaque adipisci.</p>
-                
-                <br><br>
-                <button type="button" class="btn btn-primary btn-primary-custom btn-lg">This is Button</button>
+                    <h1>News Foto</h1>
+                </div>
+                <div class="row gallery-feed">
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <img class="img-responsive" src="img/01.jpg">
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <img class="img-responsive" src="img/02.jpg">
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <img class="img-responsive" src="img/animal.jpg">
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <img class="img-responsive" src="img/nature (17).jpg">
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <img class="img-responsive" src="img/04.jpg">
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <img class="img-responsive" src="img/nature (10).jpg">
+                    </div>
                 </div>
             </div>
-        </div>
+        </div>    
     </section>
 
-    <section id="galeri" parallax2>
+    <section id="galeri" class="parallax2">
         <div class="container">
+            <!-- Button trigger modal -->
             <div class="row">
                 <div class="col-md-8 mx-auto text-center">
-                <h1>This is gallery Page</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consectetur labore incidunt, dignissimos illum temporibus placeat ratione nam odio ad molestias dolorem atque impedit maiores suscipit praesentium officiis itaque adipisci.</p>
-                
-                <br><br>
-                <button type="button" class="btn btn-primary btn-primary-custom btn-lg">This is Button</button>
+                    <h1>Gallery</h1>
+                </div>
+                <div class="row gallery-feed1">
+                    <div class="col-md-4">
+                        <a href="" data-toggle="modal" data-target="#exampleModal">
+                            <img class="img-responsive" src="img/nature (1).jpg">
+                            <div class="overlay">
+                                <span>Nature</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="" data-toggle="modal" data-target="#exampleModal"><img class="img-responsive" src="img/animal (3).jpg"></a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="" data-toggle="modal" data-target="#exampleModal"><img class="img-responsive" src="img/city (5).jpg"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" style="height: 650px;" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl" style="width: 100%;">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Nature</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    <div class="modal-body">
+                    <div class="row">
+               
+                <div class="row gallery-feed">
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <img class="img-responsive" src="img/01.jpg">
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <img class="img-responsive" src="img/02.jpg">
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <img class="img-responsive" src="img/animal.jpg">
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <img class="img-responsive" src="img/nature (17).jpg">
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <img class="img-responsive" src="img/04.jpg">
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <img class="img-responsive" src="img/nature (10).jpg">
+                    </div>
+                </div>
+            </div>
+                    </div>
                 </div>
             </div>
         </div>
