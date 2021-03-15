@@ -24,7 +24,12 @@
         margin-top: 55px;
     }
 }
-
+.pp{
+    width: 200px;
+}
+.pp img{
+    width: 200px;
+}
 /* CAROUSEL */
 #myCarousel {
     height: 100vh;

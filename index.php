@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="style.css">
     <title>FOTOGRAPHIE</title>
 
-  </head>
-  <body data-spy="scroll" data-target="#navbar">
+</head>
+<body data-spy="scroll" data-target="#navbar">
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
         <a class="navbar-brand" href="#">FOTOGRAPHIE</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,34 +19,26 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
-            <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#news">News</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Gallery
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#galeri">Animal</a>
-                <a class="dropdown-item" href="#galeri">Nature</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact Us</a>
-            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#news">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
             </ul>
             <ul class="navbar-nav ml-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
-            <li class="nav-item">
-                <a class="nav-link" href="#" >Login</a>
-            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" >Login</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -60,13 +52,13 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="img/01.jpg" class="d-block w-100" alt="...">
+                    <img src="img/01.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                <img src="img/02.jpg" class="d-block w-100" alt="...">
+                    <img src="img/02.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                <img src="img/03.jpg" class="d-block w-100" alt="...">
+                    <img src="img/03.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -110,7 +102,7 @@
         </div>    
     </section>
 
-    <section id="galeri" class="parallax2">
+    <section id="gallery" class="parallax2">
         <div class="container">
             <!-- Button trigger modal -->
             <div class="row">
@@ -120,31 +112,24 @@
                 </div>
                 <div class="row gallery-feed1">
                     <div class="col-md-4">
-                        <a href="" data-toggle="modal" data-target="#exampleModal">
+                        <a href="" data-toggle="modal" data-target="#modalnature">
                             <img class="img-responsive" src="img/nature (1).jpg">
-                            <div class="overlay">
-                            </div>
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="" data-toggle="modal" data-target="#exampleModal">
+                        <a href="" data-toggle="modal" data-target="#modalanimal">
                             <img class="img-responsive" src="img/animal (3).jpg">
-                            <div class="overlay">
-                            </div>
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="" data-toggle="modal" data-target="#exampleModal">
+                        <a href="" data-toggle="modal" data-target="#modalcity">
                             <img class="img-responsive" src="img/city (5).jpg">
-                            <div class="overlay">
-                            </div>
                         </a>
-
                     </div>
                 </div>
             </div>
             <!-- Modal -->
-            <div class="modal fade" style="height: 650px;" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" style="height: 650px;" id="modalnature" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl" style="width: 100%;">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -153,30 +138,126 @@
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
-                    <div class="modal-body">
-                    <div class="row">
-               
-                <div class="row gallery-feed">
-                    <div class="col-md-4 col-sm-6 col-xs-6">
-                        <img class="img-responsive" src="img/nature (1).jpg">
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-6">
-                        <img class="img-responsive" src="img/nature (31).jpg">
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-6">
-                        <img class="img-responsive" src="img/nature (7).jpg">
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-6">
-                        <img class="img-responsive" src="img/nature (13).jpg">
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-6">
-                        <img class="img-responsive" src="img/nature (21).jpg">
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-6">
-                        <img class="img-responsive" src="img/nature (18).jpg">
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="row gallery-feed">
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/nature (13).jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/nature (21).jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/nature (18).jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/animal.jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/nature (17).jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/04.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="modal fade" style="height: 650px;" id="modalanimal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl" style="width: 100%;">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Animal</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="row gallery-feed">
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/nature (1).jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/nature (31).jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/nature (7).jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/nature (13).jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/nature (21).jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/nature (18).jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/animal.jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/nature (17).jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/04.jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/nature (10).jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" style="height: 650px;" id="modalcity" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl" style="width: 100%;">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">City Escape</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="row gallery-feed">
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/nature (1).jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/nature (31).jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/nature (7).jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/nature (13).jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/nature (21).jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/nature (18).jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/animal.jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/nature (17).jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/04.jpg">
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <img class="img-responsive" src="img/nature (10).jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -187,44 +268,37 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 mx-auto text-center">
-                <h1>About</h1>
-                <br>
-                <h3>Who are We?</h3>
-                <br>
-                <div class="container overflow-hidden">
-                <div class="row gy-5">
-                    <div class="col-4">
-                    <div class="p-3 border bg-light">
-                        <p>
-                            Seorang Mahasiswa Uniersitas Suryakancana Semester 4, yang lahir di Cianjur 8 Juni tahun 2001, ia tinggal di Kp. Rarahan RT/RW 06/04 Desa Cimacan Kec. Cipanas Kab. Cianjur, ia memiliki Hobi bermain futsal, ia bisa di panggil Fajar
-                        </p>
+                    <h1>About</h1>
+                    <br>
+                    <h3>Who are We?</h3>
+                    <br>
+                    <div class="container overflow-hidden">
+                        <div class="row gy-5">
+                            <div class="col-4">
+                                <div class="p-3 border bg-light" >
+                                    <div class="pp"><img src="img/animal.jpg" alt="" style="width: 180px;"></div>
+                                    <p>Seorang Mahasiswa Uniersitas Suryakancana Semester 4, yang lahir di Cianjur 8 Juni tahun 2001, ia tinggal di Kp. Rarahan RT/RW 06/04 Desa Cimacan Kec. Cipanas Kab. Cianjur, ia memiliki Hobi bermain futsal, ia bisa di panggil Fajar</p>
+                                    <br>
+                                    <div class="p-3 border bg-light">Ahmad Nur Fajar</div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="p-3 border bg-light">
+                                    <div class="pp"><img src="img/animal.jpg" alt="" style="width: 180px;"></div>
+                                    <p>Seorang Mahasiswa Uniersitas Suryakancana Semester 4, yang lahir di Cianjur 26 Juni tahun 2001, ia tinggal di Kp. Sukalilah RT/RW 04/01 Desa CampakaMulya Kec. CampakaMulya Kab. Cianjur, ia memiliki Hobi bermain nonton film, ia bisa di panggil Uzi</p>
+                                    <br>
+                                    <div class="p-3 border bg-light">Ahmad Fauzi</div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="p-3 border bg-light">
+                                    <div class="pp"><img src="img/animal.jpg" alt="" style="width: 180px;"></div>
+                                    <p>Seorang Mahasiswa Uniersitas Suryakancana Semester 4, yang lahir di Cianjur 9 Februari tahun 2000, ia tinggal di Kp. LemburTengah RT/RW 06/01 Desa Salamnunggal Kec. Cibeber Kab. Cianjur, ia memiliki Hobi bermain game, ia bisa di panggil Agung</p>
+                                    <div class="p-3 border bg-light">Muh Agung Arrafi</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    </div>
-                    <div class="col-4">
-                    <div class="p-3 border bg-light">
-                        <p>
-                            Seorang Mahasiswa Uniersitas Suryakancana Semester 4, yang lahir di Cianjur 26 Juni tahun 2001, ia tinggal di Kp. Sukalilah RT/RW 04/01 Desa CampakaMulya Kec. CampakaMulya Kab. Cianjur, ia memiliki Hobi bermain nonton film, ia bisa di panggil Uzi
-                        </p>
-                    </div>
-                    </div>
-                    <div class="col-4">
-                    <div class="p-3 border bg-light">
-                        <p>
-                            Seorang Mahasiswa Uniersitas Suryakancana Semester 4, yang lahir di Cianjur 9 Februari tahun 2000, ia tinggal di Kp. LemburTengah RT/RW 06/01 Desa Salamnunggal Kec. Cibeber Kab. Cianjur, ia memiliki Hobi bermain game, ia bisa di panggil Agung
-                        </p>
-                    </div>
-                    </div>
-                    <div class="col-4">
-                    <div class="p-3 border bg-light">Ahmad Nur Fajar</div>
-                    </div>
-                    <div class="col-4">
-                    <div class="p-3 border bg-light">Ahmad Fauzi</div>
-                    </div>
-                    <div class="col-4">
-                    <div class="p-3 border bg-light">Muh Agung Arrafi</div>
-                    </div>
-                </div>
-                </div>
                 </div>
             </div>
         </div>
@@ -234,30 +308,30 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 mx-auto text-center">
-                <h1>Contact</h1>
-                <br>
-                <form>
-                    <div class="mb-3 text-left">
-                        <label for="exampleInputEmail1" class="form-label">Name</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">Input Your Name!</div>
-                    </div>
-                    <div class="mb-3 text-left">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">Input Your Email Address!</div>
-                    </div>
-                    <div class="mb-3 text-left">
-                        <label for="exampleInputEmail1" class="form-label">Massage</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">How Can We Help?</div>
-                    </div>
-                    <div class="mb-3 form-check text-left">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary text-left">Submit Form</button>
-                </form>
+                    <h1>Contact</h1>
+                    <br>
+                    <form>
+                        <div class="mb-3 text-left">
+                            <label for="exampleInputEmail1" class="form-label">Name</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">Input Your Name!</div>
+                        </div>
+                        <div class="mb-3 text-left">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">Input Your Email Address!</div>
+                        </div>
+                        <div class="mb-3 text-left">
+                            <label for="exampleInputEmail1" class="form-label">Massage</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">How Can We Help?</div>
+                        </div>
+                        <div class="mb-3 form-check text-left">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary text-left">Submit Form</button>
+                    </form>
                 </div>
             </div>
         </div>
