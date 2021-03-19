@@ -77,6 +77,7 @@
             <div class="row">
                 <div class="col-md-8 mx-auto text-center">
                     <h1>News Foto</h1>
+                    <br>
                 </div>
                 <div class="row gallery-feed">
                     <div class="col-md-4 col-sm-6 col-xs-6">
@@ -178,34 +179,19 @@
                             <div class="row">
                                 <div class="row gallery-feed">
                                     <div class="col-md-4 col-sm-6 col-xs-6">
-                                        <img class="img-responsive" src="img/nature (1).jpg">
+                                        <img class="img-responsive" src="img/animal (15).jpg">
                                     </div>
                                     <div class="col-md-4 col-sm-6 col-xs-6">
-                                        <img class="img-responsive" src="img/nature (31).jpg">
+                                        <img class="img-responsive" src="img/animal (4).jpg">
                                     </div>
                                     <div class="col-md-4 col-sm-6 col-xs-6">
-                                        <img class="img-responsive" src="img/nature (7).jpg">
+                                        <img class="img-responsive" src="img/animal (14).jpg">
                                     </div>
                                     <div class="col-md-4 col-sm-6 col-xs-6">
-                                        <img class="img-responsive" src="img/nature (13).jpg">
+                                        <img class="img-responsive" src="img/animal (2).jpg">
                                     </div>
                                     <div class="col-md-4 col-sm-6 col-xs-6">
-                                        <img class="img-responsive" src="img/nature (21).jpg">
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-6">
-                                        <img class="img-responsive" src="img/nature (18).jpg">
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-6">
-                                        <img class="img-responsive" src="img/animal.jpg">
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-6">
-                                        <img class="img-responsive" src="img/nature (17).jpg">
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-6">
-                                        <img class="img-responsive" src="img/04.jpg">
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-6">
-                                        <img class="img-responsive" src="img/nature (10).jpg">
+                                        <img class="img-responsive" src="img/animal (16).jpg">
                                     </div>
                                 </div>
                             </div>
@@ -226,34 +212,22 @@
                             <div class="row">
                                 <div class="row gallery-feed">
                                     <div class="col-md-4 col-sm-6 col-xs-6">
-                                        <img class="img-responsive" src="img/nature (1).jpg">
+                                        <img class="img-responsive" src="img/city (1).jpg">
                                     </div>
                                     <div class="col-md-4 col-sm-6 col-xs-6">
-                                        <img class="img-responsive" src="img/nature (31).jpg">
+                                        <img class="img-responsive" src="img/city (3).jpg">
                                     </div>
                                     <div class="col-md-4 col-sm-6 col-xs-6">
-                                        <img class="img-responsive" src="img/nature (7).jpg">
+                                        <img class="img-responsive" src="img/city (4).jpg">
                                     </div>
                                     <div class="col-md-4 col-sm-6 col-xs-6">
-                                        <img class="img-responsive" src="img/nature (13).jpg">
+                                        <img class="img-responsive" src="img/city (6).jpg">
                                     </div>
                                     <div class="col-md-4 col-sm-6 col-xs-6">
-                                        <img class="img-responsive" src="img/nature (21).jpg">
+                                        <img class="img-responsive" src="img/city (7).jpg">
                                     </div>
                                     <div class="col-md-4 col-sm-6 col-xs-6">
-                                        <img class="img-responsive" src="img/nature (18).jpg">
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-6">
-                                        <img class="img-responsive" src="img/animal.jpg">
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-6">
-                                        <img class="img-responsive" src="img/nature (17).jpg">
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-6">
-                                        <img class="img-responsive" src="img/04.jpg">
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-6">
-                                        <img class="img-responsive" src="img/nature (10).jpg">
+                                        <img class="img-responsive" src="img/city (8).jpg">
                                     </div>
                                 </div>
                             </div>
@@ -270,32 +244,45 @@
                 <div class="col-md-8 mx-auto text-center">
                     <h1>About</h1>
                     <br>
-                    <h3>Who are We?</h3>
-                    <br>
-                    <div class="container overflow-hidden">
-                        <div class="row gy-5">
-                            <div class="col-4">
-                                <div class="p-3 border bg-light" >
-                                    <div class="pp"><img src="img/animal.jpg" alt="" style="width: 180px;"></div>
-                                    <p>Seorang Mahasiswa Uniersitas Suryakancana Semester 4, yang lahir di Cianjur 8 Juni tahun 2001, ia tinggal di Kp. Rarahan RT/RW 06/04 Desa Cimacan Kec. Cipanas Kab. Cianjur, ia memiliki Hobi bermain futsal, ia bisa di panggil Fajar</p>
-                                    <br>
-                                    <div class="p-3 border bg-light">Ahmad Nur Fajar</div>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="p-3 border bg-light">
-                                    <div class="pp"><img src="img/animal.jpg" alt="" style="width: 180px;"></div>
-                                    <p>Seorang Mahasiswa Uniersitas Suryakancana Semester 4, yang lahir di Cianjur 26 Juni tahun 2001, ia tinggal di Kp. Sukalilah RT/RW 04/01 Desa CampakaMulya Kec. CampakaMulya Kab. Cianjur, ia memiliki Hobi bermain nonton film, ia bisa di panggil Uzi</p>
-                                    <br>
-                                    <div class="p-3 border bg-light">Ahmad Fauzi</div>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="p-3 border bg-light">
-                                    <div class="pp"><img src="img/animal.jpg" alt="" style="width: 180px;"></div>
-                                    <p>Seorang Mahasiswa Uniersitas Suryakancana Semester 4, yang lahir di Cianjur 9 Februari tahun 2000, ia tinggal di Kp. LemburTengah RT/RW 06/01 Desa Salamnunggal Kec. Cibeber Kab. Cianjur, ia memiliki Hobi bermain game, ia bisa di panggil Agung</p>
-                                    <div class="p-3 border bg-light">Muh Agung Arrafi</div>
-                                </div>
+                    <div class="container-fluid">
+                        <div class="mx-auto text-center">
+                                <h2>Who Are We?</h2>
+                                <ul class="gallery text-center">
+                                <p>Kita adalah Mahasiswa Universitas Suryakancana, Fakultas Teknik, Program Study Informatika, kita semua suka sekali dengan photograpy, itu lah yang membuat kami membuat web dengan tema photography</p>
+                                <li>
+                                    <a href="#gambar-1">
+                                    <img src="img/DSC.jpg" alt="Fajar">
+                                    <span>Fajar</span>
+                                    </a>
+                                    <div class="overlay" id="gambar-1">
+                                        <a href="#about" class="close">X</a>
+                                    <img src="img/DSC02128.jpg" alt="">
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a href="#gambar-1">
+                                    <img src="img/DSC.jpg" alt="Fajar">
+                                    <span>Fajar</span>
+                                    </a>
+                                    <div class="overlay" id="gambar-1">
+                                        <a href="#about" class="close">X</a>
+                                    <img src="img/DSC02128.jpg" alt="">
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a href="#gambar-1">
+                                    <img src="img/DSC.jpg" alt="Fajar">
+                                    <span>Fajar</span>
+                                    </a>
+                                    <div class="overlay" id="gambar-1">
+                                        <a href="#about" class="close">X</a>
+                                    <img src="img/DSC02128.jpg" alt="">
+                                    </div>
+                                </li>
+                                <div class="clear"></div>
+                                </ul>
                             </div>
                         </div>
                     </div>
