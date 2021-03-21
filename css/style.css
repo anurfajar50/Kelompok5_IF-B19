@@ -140,6 +140,131 @@ li.active a {
   background-position: 0 -100px;
 }
 
+
+/* about */
+.about1 {
+  font: 18px/36px 'arial narrow', arial, sans-serif;
+}
+
+.container-fluid {
+  margin-top: 20px;
+  padding: 30px;
+}
+
+#about .col {
+  overflow: hidden;
+  border: 3px solid #666;
+  margin: 10px;
+  justify-items: center;
+}
+
+#foto img {
+  width: 120px;
+  height: 120px;
+  margin-left: -15px;
+}
+
+.about1 .col span {
+  display: blok;
+  width: 120px;
+  height: 120px;
+  background-color: rgba(200, 200, 200, .5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  line-height: 110px;
+  text-shadow: 1px 1px 1px #ddd;
+  opacity: 0;
+  transform: scale(0) rotate(0);
+  transition: 1s;
+}
+
+.about1 .col a:hover span {
+  opacity: 1;
+  transform: scale(1) rotate(360deg);
+}
+
+.clear {
+  clear: both;
+}
+
+.overlay {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 9999;
+  transition: 1s;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.overlay:target {
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.overlay img {
+  max-height: 100%;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, .5);
+}
+
+.overlay:target img {
+  animation: zoomDanFade 1s;
+}
+
+.overlay .close {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  margin-left: -13px;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  border: 1px solid white;
+  line-height: 14px;
+  padding: 5px;
+  opacity: 0;
+}
+
+.overlay:target .close {
+  animation: slideDownFade .5s .5s forwards;
+}
+
+#about .col a {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+/* parallax about */
+#about {
+  background-image: url(../img/galle.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* contact */
+#contact .container {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#contact {
+  background-image: url(../img/natural\ \(17\).jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0px -100px;
+}
+
 .copyright {
   margin-top: -30px;
 }
